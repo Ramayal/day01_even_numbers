@@ -19,4 +19,4 @@ while i:
     elif(keyboard.is_pressed("s")):
         PositionX1, PositionX2 = pyautogui.position()
         print("Posición guardada:", PositionX, PositionY)
-    time.sleep(0.1)
+    time.sleep(0.01)
